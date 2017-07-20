@@ -1,0 +1,18 @@
+Thu Jul 20 2017 02:24:26 GMT-0400 (Hora Padrão Brasil Central)
+
+{
+	ip: "189.81.218.29",
+	country_code: "BR",
+	country_name: "Brazil",
+	region_code: "AM",
+	region_name: "Amazonas",
+	city: "Boa Vista",
+	zip_code: "",
+	time_zone: "America/Manaus",
+	latitude: -1.7824,
+	longitude: -62.2458,
+	metro_code: 0
+}
+
+---- Log retrieved: Thu Jul 20 2017 02:24:40 GMT-0400 (Hora Padrão Brasil Central) ----
+---- Session duration: 00:00:13 ----
