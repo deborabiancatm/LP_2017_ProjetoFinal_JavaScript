@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	background-color: #cbf9a3;
+	font-family: 'Marvel', sans-serif;
+}
+#map {
+        height: 600px;
+        width: 100%;
+       }
+.erro , .sucesso{
+	display: none;
+}
+.top {
+	background-color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+form {
+ 	background: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	margin-top: 40px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	text-align: left;
+	width: 30%;
+}
+.title {
+	width: 100%;
+	background-color: #77b300;
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.main {
+	padding: 3%;
+	box-sizing: border-box;
+}
+input, select {
+	border-style: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 5px;
+	font-family: 'Marvel', sans-serif;
+	box-sizing: border-box;
+}
+select {
+	font-family: 'Marvel', sans-serif;
+}
+label{
+	font-size: 12px;
+	display: inline-block;
+	padding-right: 10px;
+}
+input:active, input:hover, input:focus {
+  outline: none
+}
+button {
+	width: 100%;
+	border: 0px;
+	background-color: #77b300;
+	color: #fff;
+	padding: 8px;
+	margin-top: 10px;
+	box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 0px 2px rgba(0,0,0,0.24);
+	font-family: 'Marvel', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+ button:active{
+	background-color: #86b75a;
+}
+ button a {
+	text-decoration: none;
+	color: #fff;
+}
+ .erro {
+ 	background-color: #ffa9a5;
+ 	color: #c5352e;
+ 	border: 1px solid #c5352e;
+ 	font-size: 12px;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	margin: 10px 10px 0px 10px;
+ 	text-align: center;
+}
+
+.sos {
+	background-color: #e62e00;
+}
+.sos button:active{
+	background-color: #b32400;
+}

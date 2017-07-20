@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e-Pronto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="debugout.js"></script>
+	<script src="form.js"></script>
+	<div class="top"><img src="epronto.png" width="100px"></div>
+</head>
+<body>
+	<form id="form">
+		<div class="title">Formulário de Cadastro</div>
+		<div class="erro">Preencha os dados corretamente!</div>
+		<div class="main">		
+			<label>Nome:</label><br>
+			<input type="text" name="nome" style="width: 100%">
+			<label>Data de Nascimento:<br>
+			<input type="date" name="nascimento"></label>
+			<label>Sexo:<br>
+			<select>
+				<option name="feminino">Feminino</option>
+				<option name="masculino">Masculino</option>
+			</select></label>
+			<label>Sangue:<br> 
+			<select>
+				<option>A+</option>
+				<option>A-</option>
+				<option>B+</option>
+				<option>B-</option>
+				<option>O+</option>
+				<option>O-</option>
+				<option>AB+</option>
+				<option>AB-</option>
+			</select></label>
+			<label>CPF:<br>
+			<input type="text" name="cpf" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)"></label>
+			<label>RG:<br>
+			<input type="" name="rg"></label>
+			<label>Telefone Pessoal:<br>
+			<input type="text" name="tel" maxlength="12" OnKeyPress="formatar('## #########', this)"></label>
+			<label>Telefone Emergencial:<br>
+			<input type="text" name="tel" maxlength="12" OnKeyPress="formatar('## #########', this)"></label><br>
+			<label>Rua: </label><br>
+			<input type="text" name="" style="width: 100%"><br>
+			<label style="width: 60%">Bairro:<br> 
+			<input type="text" name="" style="width: 100%"></label>
+			<label>Nº:<br> 
+			<input type="text" name="" style="width: 30%"></label>
+			<button id="enviar" type="button">Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
